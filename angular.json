@@ -24,9 +24,14 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -89,6 +94,7 @@
             ],
             "styles": [
               "src/styles.css"
+
             ],
             "scripts": []
           }
@@ -119,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Products-prototypeWeb"
+    }
+  },
+  "defaultProject": "Products-prototypeWeb",
+  "cli": {
+    "analytics": "c33526fb-d822-4d0b-a8c1-9f8161b08d1e"
+  }
 }
